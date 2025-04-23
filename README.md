@@ -19,5 +19,11 @@
 - Training selesai, tapi loss stagnan. Indikasi kurangnya data atau masalah pada model.
 - Hasil visual: Gambar berwarna kurang baik.
 
+# Contoh Hasil Input dan Output Citra:
+Fungsi show_results(model, X_val_gray, X_val_color, n=5) digunakan untuk menampilkan contoh hasil. Kode menampilkan 3 baris gambar:
+Gambar grayscale asli (input).
+Gambar yang diwarnai oleh model (prediksi).
+Gambar berwarna asli (ground truth).
+
 # Kesimpulan:
 Kode dasar autoencoder sudah berfungsi, tetapi perlu data lebih banyak, loss lebih lanjut, penyesuaian arsitektur atau parameter lain agar hasilnya lebih baik. 
