@@ -5,7 +5,7 @@
   
   Dataset/
     train/
-        color/      (Berisi gambar berwarna)
+        color/      (Berisi gambar berwarna),
         grayscale/  (Berisi gambar grayscale yang sesuai)
   
 - Ukuran: 20 gambar (18 training, 2 validasi), ukuran 256x256.
